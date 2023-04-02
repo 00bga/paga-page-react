@@ -1,0 +1,39 @@
+.services {
+  width: 100vw;
+  height: 76rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sevicesDescText {
+  height: 15.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.servicesDesc {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16rem;
+  padding-right: 25.35rem;
+  padding-top: 19rem;
+}
+
+.services p {
+  font-size: 1.7rem;
+  width: 39rem;
+  height: 10.4rem;
+  line-height: 2.6rem;
+  color: black;
+}
+
+.dodecagon {
+  width: 18rem;
+  height: 18rem;
+  transition: all 0.2s;
+}
+
+.dodecagon:hover {
+  transform: scale(1.1);
+}

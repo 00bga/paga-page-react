@@ -1,0 +1,80 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.slider:hover .slide {
+  animation-play-state: paused;
+}
+
+.slide {
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  animation: slideshow 8s linear infinite;
+}
+
+.item {
+  height: 11rem;
+  margin-right: 0.6rem;
+  border-radius: 5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.8rem;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.item:hover {
+  transform: translateY(-15px);
+}
+
+.direction {
+  background-color: #e8dff6;
+  width: 25.7rem;
+}
+
+.design {
+  background-color: #fcf081;
+  width: 26.7rem;
+}
+
+.development {
+  background-color: #e4f2f5;
+  width: 31.5rem;
+}
+
+.branding {
+  background-color: #e8dff6;
+  width: 21.1rem;
+}
+
+.graphic {
+  background-color: #fcf081;
+  width: 28.5rem;
+}
+
+.photography {
+  background-color: #e4f2f5;
+  width: 25.4rem;
+}
+
+@keyframes slideshow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
