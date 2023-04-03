@@ -1,0 +1,85 @@
+.header {
+  width: 100vw;
+  height: 90.7rem;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+nav {
+  width: 92vw;
+  padding-left: 6rem;
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+}
+
+nav img {
+  width: 11rem;
+  height: 4.8rem;
+}
+
+.navItems {
+  width: 34.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navItems {
+  font-size: 1.7rem;
+}
+
+.navItems a {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.navItems a:hover {
+  color: #d25941;
+  cursor: pointer;
+}
+
+.menu {
+  color: #d25941;
+  font-size: 1.7rem;
+  width: 0;
+}
+
+.mainText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+.mainText h1 {
+  z-index: 3;
+}
+
+.shape {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.circle {
+  left: 5.9rem;
+}
+
+.rectangle {
+  left: 25.5rem;
+}
+
+.hexagon {
+  left: 70.5rem;
+}
+
+.oval {
+  left: 87.8rem;
+}
+
+.parallelogram {
+  left: 108.5rem;
+}

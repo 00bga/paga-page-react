@@ -16,8 +16,10 @@ function TextImage({ texts, years }) {
           className={styles.textImage}
           onMouseMove={handleMouseMove}
         >
-          <h2>{text}</h2>
-          <p>{years[index]}</p>
+          <div className={styles.description}>
+            <h2>{text}</h2>
+            <p>{years[index]}</p>
+          </div>
           <img
             src={`/assets/Images/image-${index}.jpg`}
             alt={`Image ${index}`}

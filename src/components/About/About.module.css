@@ -1,0 +1,94 @@
+footer {
+  height: 48.1rem;
+  margin-top: 18rem;
+  margin-bottom: 0;
+  background-color: #000;
+}
+
+.footerContentWrap {
+  width: 77%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paga {
+  margin-top: 13rem;
+  margin-left: 16rem;
+}
+
+footer img {
+  margin-bottom: 4.794rem;
+}
+
+.address {
+  margin-bottom: 1.6rem;
+  width: 39rem;
+}
+
+footer p {
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.menuSocialsWrap {
+  display: flex;
+  width: 51.5rem;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 22rem;
+}
+
+.menu h3 {
+  margin-bottom: 1.8rem;
+}
+
+.quickLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 8.7rem;
+}
+
+.quickLinks a {
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.quickLinks a:hover {
+  transform: translateX(8px);
+  cursor: pointer;
+}
+
+.menu a {
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.followUs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 22rem;
+}
+
+.socials {
+  display: flex;
+}
+
+.followUs h3 {
+  width: 9.5rem;
+  margin-bottom: 2.1rem;
+}
+
+.followUs img {
+  margin-right: 2.7rem;
+  transition: all 0.2s;
+}
+
+.followUs img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}

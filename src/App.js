@@ -1,14 +1,16 @@
 import styles from "./App.module.css";
-import Shapes from "./components/Shapes";
+import Header from "./components/Header";
 import Services from "./components/Services";
 import SelectedWorks from "./components/SelectedWorks";
+import About from "./components/About";
 
 function App() {
   return (
     <main>
-      <Shapes />
+      <Header />
       <Services />
       <SelectedWorks />
+      <About />
     </main>
   );
 }

@@ -6,3 +6,10 @@ h3 {
 h2 {
   font-size: 4.8rem;
 }
+
+h1 {
+  width: 112rem;
+  font-size: 11rem;
+  text-align: center;
+  font-family: "Albra Medium";
+}
