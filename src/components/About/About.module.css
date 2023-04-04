@@ -92,3 +92,43 @@ footer p {
   transform: scale(1.2);
   cursor: pointer;
 }
+
+@media (max-width: 376px) {
+  footer {
+    height: 52.6rem;
+    margin-top: 7.9rem;
+  }
+
+  .paga {
+    margin-top: 9.6rem;
+    margin-left: 1.9rem;
+  }
+
+  .paga img {
+    width: 14rem;
+    height: 6.1rem;
+  }
+
+  .footerContentWrap {
+    flex-direction: column;
+  }
+
+  .menuSocialsWrap {
+    width: 28.1rem;
+    justify-content: space-between;
+    margin-left: 1.9rem;
+    margin-top: 5.9rem;
+  }
+
+  .menu {
+    margin-top: 0;
+  }
+
+  .followUs {
+    margin-top: 0;
+  }
+
+  .followUs a {
+    height: 3rem;
+  }
+}

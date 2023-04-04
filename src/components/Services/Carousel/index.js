@@ -4,7 +4,7 @@ import styles from "./Carousel.module.css";
 function Carousel() {
   return (
     <div className={styles.slide}>
-      <div className={`${styles.item} ${styles.direction}`}>Direction</div>
+      <div className={`${styles.item} ${styles.direction}`}>Art Direction</div>
       <div className={`${styles.item} ${styles.design}`}>UI/UX Design</div>
       <div className={`${styles.item} ${styles.development}`}>
         App Development

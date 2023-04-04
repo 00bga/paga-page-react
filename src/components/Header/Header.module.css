@@ -25,10 +25,8 @@ nav img {
   width: 34.2rem;
   display: flex;
   justify-content: space-between;
-}
-
-.navItems {
   font-size: 1.7rem;
+  font-weight: bold;
 }
 
 .navItems a {
@@ -58,28 +56,35 @@ nav img {
   z-index: 3;
 }
 
-.shape {
-  position: absolute;
-  top: 0;
-  z-index: 2;
-}
+@media (max-width: 376px) {
+  .header {
+    height: 81.2rem;
+  }
 
-.circle {
-  left: 5.9rem;
-}
+  nav {
+    padding-left: 1.8rem;
+    padding-top: 2.7rem;
+    padding-right: 2.5rem;
+  }
 
-.rectangle {
-  left: 25.5rem;
-}
+  nav img {
+    width: 8.4rem;
+    height: 3.6rem;
+  }
 
-.hexagon {
-  left: 70.5rem;
-}
+  .menu {
+    font-size: 1.4rem;
+  }
 
-.oval {
-  left: 87.8rem;
-}
+  .navItems {
+    display: none;
+  }
 
-.parallelogram {
-  left: 108.5rem;
+  .mainText {
+    height: 63.5%;
+  }
+
+  .mainText {
+    line-height: 8.227rem;
+  }
 }

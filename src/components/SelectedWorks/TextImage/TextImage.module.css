@@ -40,6 +40,8 @@
 
 .textImage:hover img {
   display: block;
+  clip-path: url(#wave);
+  background-clip: content-box;
 }
 
 .textImage:hover {
@@ -49,4 +51,34 @@
 .textImage:hover h2,
 .textImage:hover p {
   color: #fff;
+}
+
+@media (max-width: 376px) {
+  .textImage {
+    height: 9.7rem;
+    display: flex;
+    position: relative;
+    transition: all 0.5s;
+  }
+
+  .textImage p {
+    font-size: 1.4rem;
+  }
+
+  .textImage h2 {
+    margin-left: 1.8rem;
+    width: 31rem;
+  }
+
+  .textImage:hover img {
+    top: 9.6rem;
+    left: 0;
+    width: 100vw;
+    position: fixed;
+  }
+
+  .textImage:hover {
+    margin-bottom: 48.6rem;
+    border-bottom: none;
+  }
 }
